@@ -34,3 +34,40 @@ User authentication
 
 ## 4W and 1H
 
+### WHO:
+All librarian can use this utility.
+
+### WHAT:
+This system can add a book, delete a book, issue a book, search a record, check availability, update book's record.
+
+### WHEN:
+This utility can be used whenever a reader approaches to library.
+
+### WHERE:
+This utility can be used in schools, colleges, private libraries and in book stores as well after some modifications.
+
+### HOW:
+Reduces manual efforts of librarian by automating library functions such as adding a book, deleting a book, updating a book record, search a book, etc.
+
+## Detail Requirements
+
+### High Level Requirements:
+
+|   ID          | Description              |   Status     |
+|---------------|--------------------------|--------------|
+| HLR_1         | Add Book                 | Implimented  |
+| HLR_2         | View all available books | Implimented  |
+| HLR_3         | Search perticular book   | Implimented  |
+| HLR_4         | Update status of perticular book | Implimented |
+| HLR_5         | Delete a book            | Implimented |
+
+### Low Level Requirements:
+
+| ID           | Discription | status |
+| HLR_1, HLR_3, HLR_5 -> LLR_01  | Ask book ID  | Implimented |
+| HLR_4 -> LLR_02      | Ask Reader's First Name | Implimented |
+| HLR_4 -> LLR_03      | Ask Reader's Last Name  | Implimented |
+| HLR_4 -> LLR_04      | Ask Reader's ID         | Implimented |
+| HLR_4 -> LLR_05      | Ask Due Date            | Implimented |
+
+
