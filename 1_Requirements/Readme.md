@@ -63,11 +63,12 @@ Reduces manual efforts of librarian by automating library functions such as addi
 
 ### Low Level Requirements:
 
-| ID           | Discription | status |
-| HLR_1, HLR_3, HLR_5 -> LLR_01  | Ask book ID  | Implimented |
-| HLR_4 -> LLR_02      | Ask Reader's First Name | Implimented |
-| HLR_4 -> LLR_03      | Ask Reader's Last Name  | Implimented |
-| HLR_4 -> LLR_04      | Ask Reader's ID         | Implimented |
-| HLR_4 -> LLR_05      | Ask Due Date            | Implimented |
+| ID                              | Discription  | status                 |
+|---------------------------------|---------------|----------------------|
+| HLR_1, HLR_3, HLR_5 -> LLR_01   | Ask book ID  | Implimented             |
+| HLR_4 -> LLR_02                 | Ask Reader's First Name | Implimented |
+| HLR_4 -> LLR_03                 | Ask Reader's Last Name  | Implimented |
+| HLR_4 -> LLR_04                 | Ask Reader's ID         | Implimented |
+| HLR_4 -> LLR_05                 | Ask Due Date            | Implimented |
 
 
